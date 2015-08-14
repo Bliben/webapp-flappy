@@ -4627,13 +4627,22 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-    color: inherit;
+
+
+
+
+    color: forestgreen;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif ;
 }
+
 .jumbotron p {
     margin-bottom: 15px;
     font-size: 21px;
     font-weight: 200;
 }
+
 .jumbotron > hr {
     border-top-color: #d5d5d5;
 }
@@ -6328,5 +6337,55 @@ button.close {
     .hidden-print {
         display: none !important;
     }
+}
+
+
+
+
+
+
+
+#link {
+    text-align: center
+
+
+}
+
+.first {
+    color: gold;
+    text-style: bold;
+
+}
+
+
+.second{
+
+    color: silver;
+
+}
+
+
+.third{
+
+    color: firebrick;
+}
+.center {
+    text-align: center;
+}
+#greeting {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background: #fff;
+    width: 350px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+}
+#gameLink {
+    text-align: center;
+    border: 1px solid gray;
 }
 /*# sourceMappingURL=bootstrap.css.map */
